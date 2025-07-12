@@ -20,8 +20,8 @@ Accept: application/json
 Content-Type: application/json
 
 {
-  "name": "The Big Room EDM",
-  "description": "Uma sala criada para testes"
+  "name": "Aplicações matemáticas 2",
+  "description": "Uma sala criada para testes de matemática."
 }
 
 ###
@@ -29,8 +29,19 @@ Content-Type: application/json
 
 ###
 
-
 # Get Room Questions
 # @name getRoomQuestions
 GET {{baseUrl}}/rooms/{{roomId}}/questions
 Accept: application/json
+
+###
+
+# Create Question
+# @name createQuestion
+POST {{baseUrl}}/rooms/{{roomId}}/questions
+Accept: application/json
+Content-Type: application/json
+
+{
+  "question": "Qual o conceito de X dentro de Y?"
+}

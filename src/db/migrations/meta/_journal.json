@@ -5,15 +5,8 @@
     {
       "idx": 0,
       "version": "7",
-      "when": 1752112229076,
-      "tag": "0000_vengeful_malice",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "7",
-      "when": 1752282797859,
-      "tag": "0001_last_energizer",
+      "when": 1752325835121,
+      "tag": "0000_tricky_dark_beast",
       "breakpoints": true
     }
   ]
